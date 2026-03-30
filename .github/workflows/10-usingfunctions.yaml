@@ -5,5 +5,5 @@ jobs:
   echo:
 	runs-on: ubuntu-latest
 	steps:
-		- name: failing steps
+		- name: Failing steps
 			run: exit 1
