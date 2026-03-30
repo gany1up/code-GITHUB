@@ -3,7 +3,7 @@ on:
   pull_request:
 jobs:
   echo:
-	runs-on: ubuntu-latest
-	steps:
-		- name: Failing steps
-			run: exit 1
+    runs-on: ubuntu-latest
+    steps:
+		  - name: Failing steps
+			  run: exit 1
