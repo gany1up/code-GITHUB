@@ -1,6 +1,9 @@
 name: 10-usingfunctions
 on:
-	push:
+  pull_request:
 jobs:
-	echo:
+  echo:
 	runs-on: ubuntu-latest
+	steps:
+		- name: failing steps
+			run: exit 1
